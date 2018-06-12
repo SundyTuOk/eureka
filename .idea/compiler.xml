@@ -6,9 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="erukaDemo" />
         <module name="erukaServer" />
+        <module name="eurekaClient" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="erukaDemo" target="1.5" />
+      <module name="erukaServer" target="1.5" />
+      <module name="eurekaClient" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
