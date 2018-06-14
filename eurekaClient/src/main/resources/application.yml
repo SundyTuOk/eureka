@@ -1,11 +1,16 @@
-
+server:
+  port: 10001
 
 eureka:
+  instance:
+    hostname: localhost
+#    prefer-ip-address: true
   client:
+#    registerWithEureka: false
+#    fetchRegistry: false
+    registry-fetch-interval-seconds: 5
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://${eureka.instance.hostname}:8761/eureka/, http://${eureka.instance.hostname}:8762/eureka/
 spring:
   application:
-    name: first-client
-server:
-  port: 9001
+    name: client

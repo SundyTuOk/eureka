@@ -7,13 +7,25 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="erukaServer" />
-        <module name="eurekaClient" />
+        <module name="eurekaProvider1" />
+        <module name="eurekaProvider1 (1)" />
+        <module name="eurekaProvider2" />
+        <module name="eurekaserver1" />
+        <module name="eurekaserver2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="eruekaProvider1" target="1.5" />
       <module name="erukaDemo" target="1.5" />
       <module name="erukaServer" target="1.5" />
+      <module name="erukaServer1" target="1.5" />
+      <module name="erukaServer2" target="1.5" />
       <module name="eurekaClient" target="1.5" />
+      <module name="eurekaProvider1" target="1.5" />
+      <module name="eurekaProvider1 (1)" target="1.5" />
+      <module name="eurekaProvider2" target="1.5" />
+      <module name="eurekaserver1" target="1.5" />
+      <module name="eurekaserver2" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
